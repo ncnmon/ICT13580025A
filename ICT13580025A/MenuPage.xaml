@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="ICT13580025A.MenuPage"
+    Title="Menu"
+    Icon="ham">
+
+    <Grid>
+       <Grid.RowDefinitions>
+            <RowDefinition Height="200">
+            </RowDefinition>
+            
+        </Grid.RowDefinitions>
+
+           <BoxView
+        Color="#79d279"/>
+    
+    <StackLayout
+        Orientation="Vertical"
+        VerticalOptions="End"
+        Margin="10">
+
+        <Image
+            Source="https://i.pinimg.com/736x/10/e3/55/10e3551a21941b2c5e3a5e0d5497d840--got--mark-jackson.jpg"
+            HeightRequest="100"
+            WidthRequest="100"
+            HorizontalOptions="Start"
+            BackgroundColor="Silver"/>
+            
+        <Label
+            Text="Natchanan Tharapong"
+            TextColor="White"
+            FontAttributes="Bold"/>
+
+        <Label
+            Text="ncn.tharapong@gmail.com"
+            TextColor="White"
+            FontAttributes="Bold"/>
+    </StackLayout>
+
+    <BoxView
+        Grid.Row="1"
+        Color="Gray"/>
+
+    <ScrollView
+        Grid.Row="1">
+        <StackLayout
+                Orientation="Vertical"
+                Padding="20">
+
+                <Label
+                Text="View"
+                TextColor="White"
+                    HorizontalTextAlignment="Center"
+                FontAttributes="Bold"/>
+
+                <Button
+                    x:Name="viewButton"
+                    Text="All View"
+                    BackgroundColor="Silver"
+                />
+                <BoxView
+                    Color="White"
+                    HeightRequest="3"
+                    Margin="10"/>
+                <Label
+                    Text="Layout"
+                    TextColor="White"
+                    HorizontalOptions="Center"
+                    FontAttributes="Bold"/>
+
+                    <Button
+                    x:Name="StackButton"
+                    Text="Stack Layout"
+                    BackgroundColor="Silver"/>
+                <Button
+                    x:Name="GridButton"
+                    Text="Grid Layout"
+                    BackgroundColor="Silver"/>
+                
+                <Button
+                    x:Name="absoluteButton"
+                    Text="Absolute Layout"
+                    BackgroundColor="Silver"
+                />
+                <BoxView
+                    Color="White"
+                    HeightRequest="3"
+                    Margin="10"/>
+
+                  <Label
+                    Text="Page"
+                    TextColor="White"
+                    HorizontalOptions="Center"
+                    FontAttributes="Bold"/>
+
+                   <Button
+                    x:Name="contentButton"
+                    Text="Content Page"
+                    BackgroundColor="Silver"
+                />
+
+                 <Button
+                    x:Name="navButton"
+                    Text="Navigation Page"
+                    BackgroundColor="Silver"/>
+
+                 <Button
+                    x:Name="tabButton"
+                    Text="Tabbed Page"
+                    BackgroundColor="Silver"
+                />
+
+
+                 <Button
+                    x:Name="carouselButton"
+                    Text="Carousel Page"
+                    BackgroundColor="Silver"/>
+            </StackLayout>
+
+        </ScrollView>
+
+
+
+    </Grid>
+          
+    
+</ContentPage>

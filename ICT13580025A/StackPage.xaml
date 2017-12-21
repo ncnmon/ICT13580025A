@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+	xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="ICT13580025A.StackPage"
+    BackgroundColor="#E6E6FA">
+    <ScrollView>
+        <StackLayout
+            Orientation="Vertical"
+            BackgroundColor="#EEE0E5">
+            <Button
+                Text="Button"
+                TextColor="White"
+                BackgroundColor="#8B7765" />
+            <Button
+                Text="Button"
+                TextColor="White"
+                BackgroundColor="#CDAF95" />
+            <Button
+                Text="Button"
+                TextColor="White"
+                BackgroundColor="#EECBAD" />
+            <ScrollView
+                Orientation="Horizontal">
+                <StackLayout
+                    Orientation="Horizontal"
+                    BackgroundColor="#CAE1FF"
+                    HeightRequest="100">
+                    <Button
+                        Text="Button"
+                        TextColor="White"
+                        BackgroundColor="#CD8C95"
+                        WidthRequest="100" />
+                    <Button
+                        Text="Button"
+                        TextColor="White"
+                        BackgroundColor="#FA8072"
+                        WidthRequest="100" />
+                    <Button
+                        Text="Button"
+                        TextColor="White"
+                        BackgroundColor="#CD8C95"
+                        WidthRequest="100" />
+                    <Button
+                        Text="Button"
+                        TextColor="White"
+                        BackgroundColor="#FA8072"
+                        WidthRequest="100" />
+                    <Button
+                        Text="Button"
+                        TextColor="White"
+                        BackgroundColor="#CD8C95"
+                        WidthRequest="100" />
+                    <Button
+                        Text="Button"
+                        TextColor="White"
+                        BackgroundColor="#FA8072"
+                        WidthRequest="100" />
+                   <Button
+                        Text="Button"
+                        TextColor="White"
+                        BackgroundColor="##CD8C95"
+                        WidthRequest="100" />
+                    <Button
+                        Text="Button"
+                        TextColor="White"
+                        BackgroundColor="#FA8072"
+                        WidthRequest="100" />
+                   <Button
+                        Text="Button"
+                        TextColor="White"
+                        BackgroundColor="#CD8C95"
+                        WidthRequest="100" />
+                </StackLayout>
+            </ScrollView>
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+            <Entry
+                Placeholder="Input text here" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
